@@ -1,1 +1,34 @@
 
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS generated files (Mac, Windows)
+.DS_Store
+Thumbs.db
+
+# Virtual environment directories
+env/
+venv/
+ENV/
+
+# Optional: Ignore temporary files created by editors
+*.swp
+*.swo
+
+# Uncomment if you want to ignore CSV files (e.g., if they are large or auto-generated)
+*.csv
+*.ipynb text eol=lf
+
+
+
+# Model artifacts (uncomment if you prefer not to track them)
+# best_model.pkl
+# tfidf_vectorizer.pkl
+
+# .gitattributes file
+*.ipynb text eol=lf
+*.py text eol=lf
